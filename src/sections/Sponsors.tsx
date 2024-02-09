@@ -1,8 +1,6 @@
-import React from "react";
-
 type Props = {
   header: string;
-  images: unknown;
+  images: never;
 };
 
 const Sponsors = ({ header, images }: Props) => {
@@ -13,7 +11,7 @@ const Sponsors = ({ header, images }: Props) => {
       </div>
       {images && (
         <div className="w-full mb-10 flex flex-wrap justify-center">
-          {images.map((image, index) => (
+          {images.map((image: never, index: number) => (
             <img
               src={image}
               key={index}

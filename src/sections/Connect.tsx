@@ -1,4 +1,3 @@
-import React from "react";
 import { connectData } from "../data/ConnectData";
 import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 

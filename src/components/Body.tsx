@@ -1,4 +1,3 @@
-import React from "react";
 import collage from "../assets/collage.jpg";
 import WhoWeAre from "../sections/WhoWeAre";
 import { whoWeAreData } from "../data/WhoWeAre";
